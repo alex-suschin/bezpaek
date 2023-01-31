@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.min.css">
+  <link rel="stylesheet" href="template_styles.min.css">
+  <title>article</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="mobile-menu">
+      <ul class="mobile-menu__list">
+        <li class="mobile-menu__item mobile-menu__item--has-child"> <a href="about.html" class="mobile-menu__link">О проблеме</a> <a href="#" class="mobile-menu__show-submenu js-mobile-submenu"></a>
+          <ul class="mobile-menu__childs">
+            <li class="mobile-menu__childs-item"> <a href="article.html" class="mobile-menu__link">Что такое спайки?</a> </li>
+            <li class="mobile-menu__childs-item"> <a href="#" class="mobile-menu__link">Как предотвратить спаечный процесс?</a> </li>
+            <li class="mobile-menu__childs-item"> <a href="#" class="mobile-menu__link">Противоспаечный барьер</a> </li>
+          </ul>
+        </li>
+        <li class="mobile-menu__item mobile-menu__item--active mobile-menu__item--has-child"> <a href="articles.html" class="mobile-menu__link">Статьи</a> <a href="#" class="mobile-menu__show-submenu  js-mobile-submenu"></a>
+          <ul class="mobile-menu__childs">
+            <li class="mobile-menu__childs-item"> <a href="article.html" class="mobile-menu__link">Ссылка 1</a> </li>
+            <li class="mobile-menu__childs-item"> <a href="#" class="mobile-menu__link">Длинная ссылка 2</a> </li>
+          </ul>
+        </li>
+        <li class="mobile-menu__item"> <a href="about.html" class="mobile-menu__link">О препарате</a> </li>
+        <li class="mobile-menu__item"> <a href="where-buy.html" class="mobile-menu__link">Где купить?</a> </li>
+        <li class="mobile-menu__item"> <a href="clinics.html" class="mobile-menu__link">Клиники</a> </li>
+        <li class="mobile-menu__item"> <a href="questions.html" class="mobile-menu__link">Задать вопрос</a> </li>
+        <li class="mobile-menu__item"> <a href="contacts.html" class="mobile-menu__link">Контакты</a> </li>
+      </ul>
+      <div class="mobile-menu__bottom"> Официальный дистрибьютер в России АО «Нижфарм» </div>
+    </nav> <button class=" js-hamburger hamburger-container">
+            <span class=" hamburger">
+              <span class="hamburger__line"></span>
+              <span class="hamburger__line"></span>
+              <span class="hamburger__line"></span>
+            </span>
+            <span class=" hamburger-close">
+              <span class="hamburger-close__line"></span>
+              <span class="hamburger-close__line"></span>
+            </span>
+          </button>
+    <div class="js-main-menu main-menu__container">
+      <nav class="main-menu">
+        <div class="wrap wrap--narrow wrap--main-menu">
+          <ul class="main-menu__list">
+            <li class="main-menu__item main-menu__item--has-child"> <a href="about.html" class="main-menu__link">О проблеме</a>
+              <ul class="main-menu__childs">
+                <li class="main-menu__childs-item"> <a href="article.html" class="main-menu__link">Что такое спайки?</a> </li>
+                <li class="main-menu__childs-item"> <a href="#" class="main-menu__link">Как предотвратить спаечный процесс?</a> </li>
+                <li class="main-menu__childs-item"> <a href="#" class="main-menu__link">Противоспаечный барьер</a> </li>
+              </ul>
+            </li>
+            <li class="main-menu__item  main-menu__item--has-child"> <a href="articles.html" class="main-menu__link">Статьи</a>
+              <ul class="main-menu__childs">
+                <li class="main-menu__childs-item"> <a href="article.html" class="main-menu__link">Ссылка 1</a> </li>
+                <li class="main-menu__childs-item"> <a href="#" class="main-menu__link">Длинная ссылка 2</a> </li>
+              </ul>
+            </li>
+            <li class="main-menu__item"> <a href="about.html" class="main-menu__link">О препарате</a> </li>
+            <li class="main-menu__item"> <a href="where-buy.html" class="main-menu__link main-menu__link--active">Где купить?</a> </li>
+            <li class="main-menu__item"> <a href="clinics.html" class="main-menu__link">Клиники</a> </li>
+            <li class="main-menu__item"> <a href="questions.html" class="main-menu__link">Задать вопрос</a> </li>
+            <li class="main-menu__item"> <a href="contacts.html" class="main-menu__link">Контакты</a> </li>
+          </ul>
+        </div>
+      </nav>
+    </div> <a href="index.html" class="header__slogan">Хирургия<br>без спаек</a> <a href="auth-question-spec.html" data-text="Вы смотрите версию для пациентов" class="auth-button js-auth-button">
+        <span class="auth-button__title">Войти как специалист</span>
+        <span class="close-btn">
+          <span class="close-btn-line"></span> <span class="close-btn-line"></span> </span>
+     </a> 
+      <div class="auth-popup js-auth-popup">
+        <p>Вы смотрите версию для пациентов</p>
+        <a href="auth-question-spec.html">
+          <svg class="liquid-button" data-text="Войти как специалист"></svg>
+        </a>
+      </div>
+     <span class="js-search search-button">
+        <span class="search-button__close-line"></span> <span class="search-button__close-line"></span> </span>
+    <div class="search-block">
+      <div class="search__inner"> <input type="text" class="search__field" placeholder="Поиск по сайту"> </div>
+    </div>
+  </header>
+  <aside class="nav-bar"></aside>
+  <div class="page">
+    <main class="page__content">
+      <div class="wrap wrap--narrow">
+        <ol class="breadcrumbs">
+          <li class="breadcrumbs__item"> <a class="breadcrumbs__link" href="index.html">Хирургия без спаек</a> </li>
+          <li class="breadcrumbs__item">Вход для пациентов<span class="close-btn">
+            <span class="close-btn-line"></span> <span class="close-btn-line"></span> </span></li>
+        </ol>
+        <h1>Вход для пациентов<span class="close-btn">
+          <span class="close-btn-line"></span> <span class="close-btn-line"></span> </span></h1>
+      </div>
+      <div class="wrap wrap--narrow">
+        <div class="article">
+
+          <link rel="stylesheet" href="auth-questions.css">
+          <div class="auth-questions js-auth-questions" data-questions="./ajax/auth-questions.json">
+            <form class="js-form-test" action="">
+                <script type="text/template" class="js-auth-questions-pool-template">
+                    <div class="auth-questions__item js-auth-questions-item" data-id="<%= data.id %>">
+                        <h2 class="article__title">Вопрос №<%= data.index %></h2>
+                        <h3 class=" article__h3"><%= data.title %></h3>
+                        <div class="js-auth-questions-items">
+                            <% for (var i=0; i < data.variants.length; i++) { %>
+                            <div class="auth-questions__item-radio">
+                                <label>
+                                    <input type="radio" name="pool-<%= data.id %>" value="<%= i + 1 %>">
+                                    <span><%= data.variants[i] %></span>
+                                </label>
+                            </div>
+                            <% } %>
+                        </div>
+                    </div>
+                </script>
+                <div class="auth-questions__start js-auth-questions-start _active">
+                    <h2 class="article__title">Раздел для пациентов</h2>
+                    <h3 class=" article__h3">Для того, чтобы пройти в&nbsp;раздел для специалистов, вам необходимо правильно ответить на&nbsp;все вопросы в&nbsp;тесте.</h3>
+                    <svg class="liquid-button js-auth-questions-btn-start" data-text="Пройти тест"></svg>
+                </div>
+                <div class="auth-questions__pool js-auth-questions-pool">
+                    <div class="js-auth-questions-pool-list"></div>
+                    <svg class="liquid-button js-auth-questions-pool-btn _disabled" data-text="Следующий вопрос"></svg>
+                    <div class="auth-questions__back js-auth-questions-back">Вернуться</div>
+                </div>
+                <div class="auth-questions__result js-auth-questions-result">
+                    <h2 class="article__title">Раздел для специалистов</h2>
+                    <div class="auth-questions__result-success js-auth-questions-result-success">
+                        <h3 class=" article__h3">Вы успешно прошли тест и можете ознакомиться с раздлелом для специалистов</h3>
+                        <a href=""><svg class="liquid-button" data-text="раздел для специалистов"></svg></a>
+                    </div>
+                    <div class="auth-questions__result-fail js-auth-questions-result-fail">
+                        <h3 class=" article__h3">Вы ответили неверно. Пожалуйста, попробуйте еще раз или перейдите в раздел для пациентов</h3>
+                        <svg class="liquid-button js-auth-questions-btn-resetart" data-text="попробовать еще раз"></svg>
+                        <a href=""><svg class="liquid-button _gray" data-text="раздел для пациентов"></svg></a>
+                    </div>
+                    <div class="auth-questions__result-fail js-auth-questions-result-fail-total">
+                      <h3 class=" article__h3">Вы неправильно ответили на вопросы, следующая попытка возможна через сутки</h3>
+                  </div>
+                </div>
+            </form>
+          </div>
+      </div>
+    </main>
+    <footer class="page__footer footer">
+      <div class="wrap">
+        <div class="footer__inner">
+          <div class="footer__warning">
+            <div class="footer__warning-text">ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. ПЕРЕД ПРИМЕНЕНИЕМ ОЗНАКОМТЕСЬ С ИНСТРУКЦИЕЙ.</div> <img class="footer__warning-image" src="images/footer.jpg" alt="ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. ПЕРЕД ПРИМЕНЕНИЕМ ОЗНАКОМТЕСЬ С ИНСТРУКЦИЕЙ."> </div>
+          <div class="footer__logo"><img src="images/stada_color.svg" alt='STADA'></div>
+          <div class="footer__rights">
+            <div class="footer__copyright">© 2018, <a href="#" class="link">STADA CIS.</a> Все права защищены. </div>
+            <div class="footer__policy"><a href="#" class="footer__policy-link link"> Политика конфиденциальности</a></div>
+          </div>
+          <div class="footer__developer">
+            <div class="footer__developer-text">Разработано</div> <a href="#" class="footer__arealidea"></a> </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <svg style="display: none;">
+    <symbol id="list-tag"viewBox="0 0 60.92 41.1">
+      <rect x="13.92" width="47" height="6.5" rx="3.25" ry="3.25"/><rect x="13.92" y="17.3" width="47" height="6.5" rx="3.25" ry="3.25"/><rect x="13.92" y="34.6" width="47" height="6.5" rx="3.25" ry="3.25"/><circle cx="3.25" cy="37.85" r="3.25"/><circle cx="3.25" cy="20.55" r="3.25"/><circle cx="3.25" cy="3.25" r="3.25"/>
+    </symbol>
+  </svg>
+  <svg style="display: none;">
+    <symbol id="map-tag" viewBox="0 0 164.77 238.82">
+      <path d="M82.39 0C37.39 0 0 36.89 0 82.39c0 43.26 24.39 92.35 82.39 156.44 58-64.09 82.39-113.18 82.39-156.44C164.77 36.89 127.39 0 82.39 0zm0 125.05a42.36 42.36 0 1 1 42.36-42.36 42.36 42.36 0 0 1-42.36 42.36z"/>
+    </symbol>
+  </svg>
+  <div id="popup-entry" class="popup-block">
+      <span class="popup-block__close" data-fancybox-close>
+          <span class="popup-block__close-line"></span>
+          <span class="popup-block__close-line"></span>
+      </span>
+    <div class="popup-entry__inner">
+      <div class="popup-entry__title">Вход для специалистов</div>
+      <div class="popup-entry__subtitle">Информация на сайте предназначена исключительно для медицинских работников.</div>
+      <p>Подтвердите, пожалуйста, являетесь ли Вы медицинским работником.<br> Если Вы не являетесь медицинским работником, пожалуйста, покиньте данный раздел сайта.<br> Я ознакомлен с соглашением и согласен с его пожеланиями.</p>
+      <div class="popup-entry__buttons">
+      <a href="#">
+          <svg class="liquid-button" data-text="нет, я не мед.работник"></svg>
+        </a> <a href="#">
+            <svg class="liquid-button" data-text="да, я мед.работник"></svg>
+        </a> </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="common.js"></script>
+  <script type="text/javascript" src="polyfills.js"></script>
+  <script type="text/javascript" src="auth-questions.js"></script>
+  <script type="text/javascript" src="layout.js"></script>
+
+  <script>
+    $(function () {
+      function getCookie(name) {
+        var matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
+        return matches ? decodeURIComponent(matches[1]) : undefined;
+      }
+
+      if(getCookie('authTimeout')) {
+        $('.js-auth-questions-start').removeClass('_active');
+        $('.js-auth-questions-result').addClass('_active');
+        $('.js-auth-questions-result-fail-total').addClass('_active');
+      };
+    });
+
+
+    if($(window).width() < 1024) {
+      $('.js-auth-button').click(function (e) {
+        e.preventDefault();
+        $(this).toggleClass('_active');
+        $('.js-auth-popup').toggleClass('_active');
+      });
+    }
+
+    // let step = 1;
+    // let requestObj = {};
+
+    // $('.js-auth-questions-pool-btn').on('click', function () {
+    //   let $currInput = $(`[data-id="${step}"]`).find('input:checked');
+    //   let nameObj = $currInput.attr('name');
+    //   requestObj[nameObj] = $currInput.val();
+    //   if(step === 3) {
+    //     localStorage.setItem('formData', JSON.stringify(requestObj));
+    //   } 
+    //   step = step+1;
+    // });
+  </script>
+</body>
+
+</html>
