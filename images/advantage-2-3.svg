@@ -1,0 +1,14 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.35 41.35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #38b9ef;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <title>02_compound_04</title>
+  <circle class="cls-1" cx="20.68" cy="20.68" r="15.68"/>
+</svg>

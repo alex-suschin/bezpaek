@@ -1,0 +1,18 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.13 12.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #38b9ef;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <title>next</title>
+  <g>
+    <polygon class="cls-1" points="63.38 6.18 56.85 11.61 56.85 0.75 63.38 6.18"/>
+    <line class="cls-1" x1="0.75" y1="6.18" x2="63.38" y2="6.18"/>
+  </g>
+</svg>

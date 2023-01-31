@@ -1,0 +1,25 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.46 33.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #38b9ef;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #38b9ef;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>icon_LOR</title>
+  <g>
+    <path class="cls-1" d="M7,27.75"/>
+    <polyline class="cls-2" points="23.29 33.13 23.29 27.75 21.41 29.91"/>
+    <line class="cls-2" x1="23.28" y1="27.75" x2="25.03" y2="29.81"/>
+    <polyline class="cls-2" points="7.06 33.13 7.06 27.75 5.18 29.91"/>
+    <line class="cls-2" x1="7.06" y1="27.75" x2="8.81" y2="29.81"/>
+    <path class="cls-2" d="M9.56.5s.35,8.81-6.44,13.56c-4.36,3.06-2.71,7.29.81,8.36,1.37.41,5.5.58,6.94,2.71a6.34,6.34,0,0,0,.42.54v0a4.71,4.71,0,0,0,7.91,0v0a6.33,6.33,0,0,0,.42-.54C21,23,25.15,22.83,26.53,22.42c3.53-1.06,5.18-5.3.81-8.36C20.56,9.31,20.9.5,20.9.5"/>
+  </g>
+</svg>

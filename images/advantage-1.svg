@@ -1,0 +1,34 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184.4 188.32">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #38b9ef;
+        stroke-width: 10px;
+      }
+
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>02_mol</title>
+  <g>
+    <circle class="cls-1" cx="98.19" cy="87.12" r="43.45"/>
+    <circle class="cls-1" cx="67.23" cy="21.42" r="16.42"/>
+    <line class="cls-2" x1="73.31" y1="36.65" x2="78.63" y2="48.36"/>
+    <circle class="cls-1" cx="155.97" cy="31.42" r="16.42" transform="translate(-1.37 55.05) rotate(-19.93)"/>
+    <line class="cls-2" x1="143.71" y1="42.33" x2="129.12" y2="56.61"/>
+    <circle class="cls-1" cx="21.42" cy="114.16" r="16.42" transform="translate(-94.56 120.42) rotate(-82.47)"/>
+    <line class="cls-2" x1="37.32" y1="110.13" x2="56.86" y2="104.19"/>
+    <circle class="cls-1" cx="84.54" cy="166.9" r="16.42" transform="translate(-101.61 148.18) rotate(-57.39)"/>
+    <line class="cls-2" x1="87.63" y1="150.79" x2="90.53" y2="130.58"/>
+    <circle class="cls-1" cx="162.98" cy="143.09" r="16.42" transform="translate(-46.56 87.12) rotate(-26.33)"/>
+    <line class="cls-2" x1="150.77" y1="132.13" x2="130.8" y2="115.82"/>
+  </g>
+</svg>

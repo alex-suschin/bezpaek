@@ -1,0 +1,26 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148.09 165.78">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #38b9ef;
+        stroke-width: 10px;
+      }
+
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>02_compound_05</title>
+  <g>
+    <rect class="cls-1" x="41.71" y="5" width="64.32" height="15.62"/>
+    <path class="cls-2" d="M96.57,52.3V21H51.51V52.3C38,78-20.54,144.41,17.85,159.71c1.62.65,5.69,1,11.06,1.47h90.27c5.38-.43,9.44-.82,11.06-1.47C168.62,144.41,110.05,78,96.57,52.3Z" transform="translate(0 -0.4)"/>
+    <line class="cls-2" x1="29.62" y1="85.72" x2="117.97" y2="85.72"/>
+  </g>
+</svg>
