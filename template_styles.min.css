@@ -1769,9 +1769,25 @@ input[type='submit'].styler[disabled] {
   color: #282828;
   margin-bottom: 12px;
 }
-.auth-popup svg {
+.ms-button {
+  text-transform: uppercase;
+  background: #3cc2f9;
+  color: white;
+  border-radius: 24px;
+  font-size: 10px;
+  padding: 15px 5px 13px;
+  width: 220px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+.auth-popup .ms-button {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .close-btn {
     display: block;
