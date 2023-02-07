@@ -51,6 +51,11 @@
   display: none;
   margin: 20px auto;
 }
+.link-specialist-page .ms-button {
+  display: none;
+  margin: 20px auto;
+}
+
 @media (max-width: 1023px) {
   .auth-questions__start .liquid-button {
     display: none;
@@ -71,6 +76,12 @@
     display: block;
     background: #D3D3D3;
     color: #282828;
+  }
+  .link-specialist-page .liquid-button {
+    display: none;
+  }
+  .link-specialist-page .ms-button {
+    display: block;
   }
 }
 .auth-questions__pool {
