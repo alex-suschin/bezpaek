@@ -120,11 +120,17 @@
                 <div class="auth-questions__start js-auth-questions-start _active">
                     <h2 class="article__title">Раздел для специалистов</h2>
                     <h3 class=" article__h3">Для того, чтобы пройти в&nbsp;раздел для специалистов, вам необходимо правильно ответить на&nbsp;все вопросы в&nbsp;тесте.</h3>
-                    <svg class="liquid-button js-auth-questions-btn-start" data-text="Пройти тест"></svg>
+                    <div class="js-auth-questions-btn-start">
+                      <svg class="liquid-button" data-text="Пройти тест"></svg>
+                      <span class="ms-button">Пройти тест</span>
+                    </div>
                 </div>
                 <div class="auth-questions__pool js-auth-questions-pool">
                     <div class="js-auth-questions-pool-list"></div>
-                    <svg class="liquid-button js-auth-questions-pool-btn _disabled" data-text="Следующий вопрос"></svg>
+                    <div class="js-auth-questions-pool-btn _disabled">
+                      <svg class="liquid-button" data-text="Следующий вопрос"></svg>
+                      <span class="ms-button">Пройти тест</span>
+                    </div>
                     <div class="auth-questions__back js-auth-questions-back">Вернуться</div>
                 </div>
                 <div class="auth-questions__result js-auth-questions-result">
@@ -138,6 +144,9 @@
                         <svg class="liquid-button js-auth-questions-btn-resetart" data-text="попробовать еще раз"></svg>
                         <a href=""><svg class="liquid-button _gray" data-text="раздел для пациентов"></svg></a>
                     </div>
+                    <div class="auth-questions__result-fail js-auth-questions-result-fail-total">
+                      <h3 class=" article__h3">Вы неправильно ответили на вопросы, следующая попытка возможна через сутки</h3>
+                  </div>
                 </div>
             </form>
           </div>
